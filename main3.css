@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.mainNav {
+    display: flex;
+    padding: 32px 32px;
+    min-height: 80px;
+    background: #1f1f1f;
+    justify-content: space-between;
+}
+
+nav > a {
+    vertical-align: bottom;
+}
+
+nav img {
+    max-height: 48px;
+    background-color: white;
+}
+
+nav ul,
+nav ul li,
+.spacer {
+    display: inline-block;
+}
+
+.spacer {
+    /* Parent width - Logo width - Menu <ul> width */
+    width: calc(100% - 132px - 276px);
+}
+
+.mainNav ul {
+    margin-bottom: 15px;
+    align-self: center;
+
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+#last-item {
+    margin-right: 0px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(229, 145, 0);
+}
+
+nav ul li a:active {
+    color: rgb(92, 229, 0);
+}
+
+#current-page {
+    color: aquamarine;
+}
+
+main {
+    min: height 50vh;
+    width: 80%;
+    background-color: white;
+    display: inline-block;
+}
+
+main h1 {
+    padding: 20px;
+}
+
+.article-picture {
+    max-height: 50vh;
+    float: right;
+}
+img {
+    max-height: 160px;
+}
+
+.textbox {
+    /* clear: right; */
+    margin: 16px;
+    padding: 16px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+
+
+}
+
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(20% - 5px);
+    border: 5px solid #1f1f1f;
+    text-align: center;
+    background-color: #1f1f1f;
+    color: blue;
+    min-height: 76vh;
+}
+
+aside h1 {
+    background-color: #1f1f1f;
+    color: blueviolet;
+    margin-bottom: 25px;
+}
+aside a:link {
+    color: white;
+    text-decoration: none;
+
+}
+aside a:hover {
+    color: rgb(229, 145, 0);
+}
+
+footer{
+    border: 2px solid #1f1f1f;
+    text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+}
+
+nav p a:hover{
+    color: rgb(229, 145, 0)
+}
+
+nav p a{
+    color: white;
+    position: fixed;
+}
+
+footer p {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+footer p:last-child {
+    margin-right: 0px;
+}
+footer nav ul li {
+    color: blueviolet;
+}
+
+footer div {
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    padding: 10px;
+}

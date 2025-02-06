@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main2.css">
+    <title>About page</title>
+</head>
+<body>
+    <nav class="mainNav" aria-label="Principal Menu">
+        <a href="#">
+            <picture>
+                <!-- SVG version for all scenarios due to scalability and efficiency -->
+                <source srcset="./assets/logo/ECO_logo.svg" type="image/svg+xml" />
+                <!-- High resolution PNG for large screens -->
+                <source srcset="./assets/logo/ECO_logo_big.png" media="(min-width: 1024px)" type="image/png" />
+                <!-- Small PNG for medium screens -->
+                <source srcset="./assets/logo/ECO_logo_small.png" media="(min-width: 768px)" type="image/png" />
+                <!-- High resolution JPG for small screens (lower priority than PNG) -->
+                <source srcset="./assets/logo/ECO_logo_big.jpg" media="(min-width: 480px)" type="image/jpg" />
+                <!-- Fallback small JPG for all other scenarios or if none of the above are supported -->
+                <img src="./assets/logo/ECO_logo_small.jpg" alt="ECO company logo">
+            </picture>
+        </a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" id="current-page">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li id="last-item"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 style="text-align: center;">About Page</h1>
+        <article>
+            <div class="article-picture">
+                <picture>
+                    <source srcset="./assets/logo/ECO_logo_small.png" media="(min-width: 768px)" type="image/png" />
+                    <img src="./assets/logo/ECO_logo_small.jpg" alt="ECO company logo">
+                </picture>
+            </div>
+            <div class="textbox">
+                <h2 class="post-title">Example of Float Layout</h2>
+                <p class="post-info">Published <time datetime="2023-03-04T18:30">March 4th, 2023 at 6:30 PM</time>.</p>
+                <p class="post-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Possimus magnam nesciunt rerum minus, amet repudiandae, 
+                    deleniti recusandae fuga dolore, asperiores est explicabo 
+                    autem ipsam exercitationem dignissimos harum consectetur! Iure, quo.</p>
+                <p class="post-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Possimus magnam nesciunt rerum minus, amet repudiandae, 
+                    deleniti recusandae fuga dolore, asperiores est explicabo 
+                    autem ipsam exercitationem dignissimos harum consectetur! Iure, quo.</p>
+                <p class="post-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Possimus magnam nesciunt rerum minus, amet repudiandae, 
+                    deleniti recusandae fuga dolore, asperiores est explicabo 
+                    autem ipsam exercitationem dignissimos harum consectetur! Iure, quo.</p>
+                <p class="post-paragraph last-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Amet similique necessitatibus blanditiis ab at? Minus 
+                    sapiente dicta deleniti explicabo quod eveniet deserunt expedita. 
+                    Veritatis incidunt illum veniam debitis totam commodi?</p>
+            </div>
+
+
+        </article>
+    </main>
+    <aside>
+        <h1>Categories</h1>
+        <p><a href="#">Gardening</a></p>
+        <p><a href="#">Landscaping</a></p>
+        <p><a href="#">Weed Control</a></p>
+        <p><a href="#">Tree Removal</a></p>
+    </aside>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Back to Top</a></li>
+            </ul>
+        </nav>
+        <div>
+            &copy 2024 My Website
+        </div>
+    </footer>
+</body>
+</html>

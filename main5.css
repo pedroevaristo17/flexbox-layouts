@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 32px;
+    min-height: 80px;
+    background: #1f1f1f;
+}
+.mainNav ul  {
+    align-self: center;
+    
+
+}
+nav > a {
+    vertical-align: bottom;
+}
+
+nav img {
+    max-height: 48px;
+    background-color: white;
+}
+
+nav ul,
+nav ul li {
+    display:flex;
+    justify-content: center;
+    
+}
+
+.mainNav ul {
+    margin-bottom: 15px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+#last-item {
+    margin-right: 0px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(229, 145, 0);
+}
+
+nav ul li a:active {
+    color: rgb(92, 229, 0);
+}
+
+#current-page {
+    color: aquamarine;
+}
+.container {
+    display: flex;
+    min-height: 31vw;
+    align-self: stretch;
+}
+aside {
+    width: 20%;
+    background-color: black;
+}
+main {
+    width: 80%;
+    background-color: white;
+    display: inline-block;
+}
+
+main h1 {
+    padding: 20px;
+    min-height: 70vh;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.images img {
+    width: 280px;
+    border: solid 2px black;
+    height: 250px;
+    
+}
+aside h1 {
+    background-color: #1f1f1f;
+    color: blueviolet;
+    margin-bottom: 25px;
+    text-align: center;
+}
+aside p{
+    color: antiquewhite;
+    text-align: center;
+}
+aside a:link {
+    color: white;
+    text-decoration: none;
+
+}
+aside a:hover {
+    color: rgb(229, 145, 0);
+}
+
+footer{
+    border: 2px solid #1f1f1f;
+    text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+}
+
+
+footer nav ul li {
+    color: blueviolet;
+}
+
+footer div {
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    padding: 10px;
+}
