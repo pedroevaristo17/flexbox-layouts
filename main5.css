@@ -85,15 +85,16 @@ main h1 {
 .images {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: flex-start;
     row-gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
 }
 
 .images img {
-    width: 280px;
+    width: 200px;
     border: solid 2px black;
-    height: 250px;
     
 }
 aside h1 {
